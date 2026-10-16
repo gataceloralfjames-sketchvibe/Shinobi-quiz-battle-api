@@ -3,7 +3,7 @@
 Backend API for **shinobi-quiz-battle**, a tournament game for the SorSU Bulan Campus library.
 CS 313 Software Engineering 1, A.Y. 2026-2027.
 
-- Developer: [Your full name] ([your GitHub username]), BSCS [3-1 or 3-2]
+- Developer: Ralf James Gatacelo (gataceloralfjames-sketchvibe), BSCS [3-1]
 - Group and game concept: [Group name]
 
 This is my own build of my group's game concept. Every commit in this repository was made by me, with Git, on my own computer or in my own Codespace.
@@ -60,11 +60,18 @@ Base URL: `http://localhost:3001/api/v1`
 
 ## What "completed" means in my game
 
-[One or two sentences: when does a player count as having completed a game? For example: "A player completed the game when they answered every question, even if some answers were wrong or timed out."]
+A player is considered to have completed a game when they have answered all the questions in the game session, regardless of whether their answers are correct or incorrect. Players who leave the game or do not answer all the questions are considered incomplete.
 
 ## Tables
 
-[List your tables, one line each, in the order of your migrations.]
+users
+QuestionSet
+GameSession
+Player
+Question
+Answer
+RewardRound
+RewardObject
 
 ## Database scripts
 
